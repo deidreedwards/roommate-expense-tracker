@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Input } from '@/components/ui/input'
-import { Button } from '@/components/ui/button'
+import { Card, CardContent, CardHeader, CardTitle } from '@/src/components/ui/card'
+import { Input } from '@/src/components/ui/input'
+import { Button } from '@/src/components/ui/button'
 
 const ExpenseTracker = () => {
   const defaultMonthData = {
